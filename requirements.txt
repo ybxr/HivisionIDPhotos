@@ -5,3 +5,8 @@ requests
 mtcnn-runtime
 tqdm
 starlette
+fastapi==0.114.1
+gradio==4.44.0
+httpx==0.27.2
+onnxruntime==1.19.2
+pillow==10.4.0
