@@ -31,7 +31,7 @@ FACE_DETECT_MODELS += FACE_DETECT_MODELS_EXPAND
 if __name__ == "__main__":
     argparser = argparse.ArgumentParser()
     argparser.add_argument(
-        "--port", type=int, default=7860, help="The port number of the server"
+        "--port", type=int, default=80, help="The port number of the server"
     )
     argparser.add_argument(
         "--host", type=str, default="127.0.0.1", help="The host of the server"
